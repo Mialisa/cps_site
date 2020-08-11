@@ -18,7 +18,7 @@ function mobileSlider1() {
           clickable: true,
         },
       });
-      slider1.dataset.mobile == 'true';
+      slider1.dataset.mobile = 'true';
     }
     if (window.innerWidth > 767) {
       slider1.dataset.mobile = 'false';
