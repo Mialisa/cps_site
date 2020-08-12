@@ -7,6 +7,10 @@
     opacity: 1;
     background: $swiper-bullet;
 }
-.swiper-pagination-bullet-active {
-    background: $swiper-active;
+
+.swiper-pagination--position {
+    bottom: -10px;
+    @media (min-width: $tablet) {
+        bottom: 0;
+    }
 }

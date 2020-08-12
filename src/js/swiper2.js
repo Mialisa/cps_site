@@ -1,4 +1,5 @@
-import Swiper from 'swiper';
+import Swiper , { Pagination } from 'swiper';
+Swiper.use([Pagination]);
 
 const slider2 = document.querySelector('.swiper-container2');
 
