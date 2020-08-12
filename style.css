@@ -418,12 +418,16 @@
   flex-wrap: nowrap;
   height: 110px;
   overflow: hidden;
-  padding-top: 16px; }
+  padding-top: 16px;
+  padding-left: 16px; }
   @media (max-width: 767px) {
     .gallery {
       width: 4080px;
       transition-duration: 0ms;
       transform: translate3d(-720px, 0px, 0px); } }
+  @media (min-width: 768px) {
+    .gallery {
+      padding-left: 0; } }
 
 .card {
   display: flex;
@@ -715,7 +719,8 @@
   flex-wrap: nowrap;
   min-height: 200px;
   overflow: hidden;
-  padding-top: 24px; }
+  padding-top: 24px;
+  padding-left: 16px; }
   @media (max-width: 767px) {
     .gallery2 {
       width: 4080px;
@@ -725,7 +730,8 @@
     .gallery2 {
       padding-top: 16px;
       flex-wrap: wrap;
-      min-height: 160px; } }
+      min-height: 160px;
+      padding-left: 0; } }
   .gallery2__height {
     display: flex;
     height: auto; }
@@ -734,13 +740,15 @@
   display: flex;
   min-height: 280px;
   flex-wrap: nowrap;
-  padding-top: 16px; }
+  padding-top: 16px;
+  padding-left: 16px; }
   @media (min-width: 768px) {
     .gallery3 {
       height: auto;
       flex-direction: column;
       flex-wrap: wrap;
-      padding-top: 0; } }
+      padding-top: 0;
+      padding-left: 0; } }
 
 .button-confirm {
   border: none;
@@ -1061,6 +1069,9 @@
   font-size: 12px;
   opacity: 1;
   background: #DDDDDD; }
+  @media (min-width: 768px) {
+    .swiper-pagination-bullet {
+      display: none; } }
 
 .swiper-pagination--position {
   bottom: -10px; }
@@ -1069,7 +1080,44 @@
       bottom: 0; } }
 
 .swiper-pagination-bullet-active {
-  background: black; }
+  background: #7E7E82; }
+
+@media (min-width: 320px) {
+  .body-height-hidden {
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    opacity: 0.1;
+    width: 100%; } }
+
+@media (min-width: 1366px) {
+  .body-height-hidden {
+    position: relative;
+    opacity: 1; } }
+
+.sidebar-hide {
+  position: absolute;
+  top: 0;
+  transform: translateX(-400px);
+  transition: all 1s;
+  opacity: 0; }
+  @media (min-width: 1366px) {
+    .sidebar-hide {
+      position: relative;
+      transform: none;
+      opacity: 1; } }
+
+.sidebar-open {
+  position: absolute;
+  top: 0;
+  transform: translateX(400px);
+  transition: all 0.4s;
+  width: 100%; }
+  @media (min-width: 1366px) {
+    .sidebar-open {
+      position: relative;
+      transform: none;
+      width: auto; } }
 
 
 /*# sourceMappingURL=style.css.map*/
