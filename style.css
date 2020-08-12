@@ -1052,17 +1052,5 @@
     width: 224px;
     margin-right: 16px; } }
 
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 12px;
-  opacity: 1;
-  background: #DDDDDD; }
-
-.swiper-pagination-bullet-active {
-  background: #8a958d; }
-
 
 /*# sourceMappingURL=style.css.map*/
