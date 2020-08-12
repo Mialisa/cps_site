@@ -3,11 +3,13 @@
     min-height: 280px;
     flex-wrap: nowrap;
     padding-top: 16px;
+    padding-left: 16px;
 
     @media (min-width: 768px) {
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
         padding-top: 0;
+        padding-left: 0;
     }
 }

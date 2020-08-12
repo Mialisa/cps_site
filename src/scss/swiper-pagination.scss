@@ -6,6 +6,9 @@
     font-size: 12px;
     opacity: 1;
     background: $swiper-bullet;
+    @media (min-width: $tablet) {
+        display: none;
+    }
 }
 
 .swiper-pagination--position {

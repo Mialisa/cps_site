@@ -1,6 +1,7 @@
 import Swiper , { Pagination } from 'swiper';
 Swiper.use([Pagination]);
 
+
 const slider3 = document.querySelector('.swiper-container3');
 
 let mySwiper3;
