@@ -121,7 +121,10 @@
     background-image: url(./static/iconsearch.svg);
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 100px; }
+    margin-left: 50px; }
+    @media (min-width: 1366px) {
+      .btn-round--status {
+        margin-left: 100px; } }
   .btn-round:active {
     opacity: 0.8; }
 
