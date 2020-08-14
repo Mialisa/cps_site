@@ -1500,9 +1500,9 @@ button.swiper-pagination-bullet {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 32px 24px; }
+  padding-left: 24px; }
   .sidebar-footer__contacts {
-    margin-bottom: 40px; }
+    margin-bottom: 25px; }
   .sidebar-footer__link-mail {
     margin-bottom: 12px; }
   .sidebar-footer--mail {
@@ -1546,7 +1546,6 @@ button.swiper-pagination-bullet {
   justify-content: flex-start;
   align-items: center;
   padding: 10px 0;
-  margin-bottom: 12px;
   font-family: "TT Lakes"; }
   .btn-nav .btn-nav__name {
     margin-left: 24px;
