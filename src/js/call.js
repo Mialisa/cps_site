@@ -3,7 +3,7 @@ var buttonOpenMenu = document.querySelector('.btn-round--call');
 var modal = document.querySelector('.wrap-call');
 var buttonCloseMenu = document.querySelector('.wrap-call__close-button');
 var menu = document.querySelector('.call-menu');
-var heightBody = document.querySelector('.page__block');
+var heightBody = document.querySelector('.dekstop');
 var modalLeft = document.querySelector('.sidebar');
 
 var closeMenu = function(className) {

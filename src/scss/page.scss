@@ -6,6 +6,11 @@
     position: relative;
     min-width: 320px;
     max-width: 1712px;
+    @media (min-width: $dekstop-min) { 
+        display: flex;
+        justify-content: center;
+    }
+    
     &__wrapper {
         position: absolute;
         top: 0;

@@ -8,6 +8,7 @@
     @media (min-width: $dekstop-min) {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: center;
     }
 
     &__input {
@@ -34,3 +35,10 @@
     }
 }
 
+.dekstop {
+    @media (min-width: $dekstop-min) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+ }
+}
