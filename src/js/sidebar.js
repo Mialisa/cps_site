@@ -16,13 +16,14 @@ buttonCloseMenu.onclick = function() {
     heightBody.classList.remove('body-height-hidden');
     modalLeft.classList.add('sidebar-hide');
     modalLeft.classList.remove('sidebar-open');
-    modalLeft.style.width = 'auto';
+    modalLeft.style.width = '320px';
 }
 modalLeft.addEventListener("click", function (e) {
     if (!sidebarBody.contains(e.target) && !buttonCloseMenu.contains(e.target)) {
       heightBody.classList.remove("body-height-hidden");
       modalLeft.classList.add("sidebar-hide");
       modalLeft.classList.remove("sidebar-open");
+      modalLeft.style.width = '320px';
       console.log("modal-left");
     }
   });
