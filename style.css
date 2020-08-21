@@ -547,7 +547,8 @@ button.swiper-pagination-bullet {
   @media (min-width: 1366px) {
     .body {
       display: flex;
-      flex-direction: row-reverse; } }
+      flex-direction: row-reverse;
+      justify-content: center; } }
   .body__input {
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
@@ -587,6 +588,12 @@ button.swiper-pagination-bullet {
       line-height: 24px;
       letter-spacing: -0.2px;
       color: #B5B6BC; }
+
+@media (min-width: 1366px) {
+  .dekstop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; } }
 
 .btn-round {
   position: relative;
@@ -1381,6 +1388,10 @@ button.swiper-pagination-bullet {
   position: relative;
   min-width: 320px;
   max-width: 1712px; }
+  @media (min-width: 1366px) {
+    .page {
+      display: flex;
+      justify-content: center; } }
   .page__wrapper {
     position: absolute;
     top: 0;
@@ -1530,8 +1541,7 @@ button.swiper-pagination-bullet {
       position: sticky;
       display: block;
       left: 0;
-      top: 0;
-      width: 320px; } }
+      top: 0; } }
   .sidebar__body {
     position: relative;
     background: #FFFFFF;
