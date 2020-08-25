@@ -18,6 +18,10 @@ else
 }
 });
 
+
+// 2 
+
+
 var wrap = document.querySelector('.swiper-wrapper1');
 var buttonShowAll = document.querySelector('.info-more__name1');
 var isSlideView = true;
@@ -36,6 +40,9 @@ else
     isSlideView  = true;
 }
 });
+
+
+// 3
 
 var wrap2 = document.querySelector('.swiper-wrapper2');
 var buttonShowAll2 = document.querySelector('.info-more__name2');

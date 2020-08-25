@@ -1,4 +1,6 @@
 .main-info__block {
+    display: flex;
+    flex-direction: column;
     margin: auto 20px;
     height: 90px;
     width: 288px;
@@ -37,11 +39,13 @@
 @media (min-width: $tablet) {
     .main-info {
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        padding-right: 24px;
+        padding-bottom: 24px;
         &__logo {
             min-width: 360px;
             margin: 0 20px 0 48px;
-            max-height: 360px;
+
         }
         &__block {
             height: 135px;
