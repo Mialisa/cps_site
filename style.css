@@ -680,14 +680,7 @@ button.swiper-pagination-bullet {
     background-position: center;
     margin: 24px 16px; }
   .btn-round--repair {
-    background-image: url(./static/repair111.svg);
-    background-repeat: no-repeat;
-    background-position: center;
     margin-left: 16px; }
-  .btn-round--search {
-    background-image: url(./static/iconcheck111.svg);
-    background-repeat: no-repeat;
-    background-position: center; }
   .btn-round--back {
     background-image: url(./static/iconback.svg);
     background-repeat: no-repeat;
@@ -726,6 +719,10 @@ button.swiper-pagination-bullet {
     @media (min-width: 540px) {
       .btn-round--send {
         margin-right: 32px; } }
+  .btn-round--img {
+    position: absolute;
+    left: 12px;
+    top: 10px; }
   .btn-round:active {
     opacity: 0.8; }
 
@@ -868,6 +865,8 @@ button.swiper-pagination-bullet {
   margin-left: 16px; }
 
 .main-info__block {
+  display: flex;
+  flex-direction: column;
   margin: auto 20px;
   height: 90px;
   width: 288px;
@@ -900,11 +899,12 @@ button.swiper-pagination-bullet {
 @media (min-width: 768px) {
   .main-info {
     display: flex;
-    justify-content: space-around; }
+    flex-direction: row;
+    padding-right: 24px;
+    padding-bottom: 24px; }
     .main-info__logo {
       min-width: 360px;
-      margin: 0 20px 0 48px;
-      max-height: 360px; }
+      margin: 0 20px 0 48px; }
     .main-info__block {
       height: 135px;
       min-width: 312px;
