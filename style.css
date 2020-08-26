@@ -1546,7 +1546,7 @@ button.swiper-pagination-bullet {
     position: relative;
     background: #FFFFFF;
     font-family: "TT Lakes";
-    height: 100vh; }
+    min-height: 100vh; }
     @media (max-width: 1365px) {
       .sidebar__body {
         width: 320px; } }
@@ -1712,7 +1712,7 @@ button.swiper-pagination-bullet {
 
 .sidebar-open {
   position: absolute;
-  height: 100vh;
+  height: auto;
   width: 320px;
   top: 0;
   left: -400px;
