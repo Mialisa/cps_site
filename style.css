@@ -1800,7 +1800,6 @@ button.swiper-pagination-bullet {
   box-sizing: border-box;
   width: 320px;
   height: 100vh;
-  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
   min-height: 700px;
   padding-top: 24px;
   background-color: #FFFFFF;
